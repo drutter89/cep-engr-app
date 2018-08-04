@@ -18,7 +18,7 @@ fields.checkMessage = function () {
   console.log(this.firstName);
 
 
-
+  // using arrow funcitons here to keep "this" in the context of our object "fields"
   $('#firstName').click(() => {
     console.log(this);
     console.log(this.firstName);
