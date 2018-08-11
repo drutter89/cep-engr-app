@@ -9,11 +9,11 @@
 // 
 var fields = new Object();
 // Properties of our object.
-fields.firstName = "My first name is Dylan!";
+fields.firstName = "My first name is Dylan! I was named after Bob Dylan";
 fields.lastName = "My last name is Rutter! My Mom always said 'it's Rutter like Butter' when people ask the spelling.";
 fields.jobTitle = "My job title is 'Resolutions Specialist'. Essentially we speak to all customers who demand supervisors from the front line agents. We aren't supervisors ourselves, just an escalated dept.";
-fields.homeOffice = "I work at the RPP location up North. It's a great office, and we finally got new electric desks!";
-fields.tellMeMore = "I am a big gamer. In my spare time I love modding arcade sticks and mostly play Street Fighter";
+fields.homeOffice = "I work at the RPP location up North. It's not that far from the Domain office. It's a great office, and we finally got new electric desks!";
+fields.tellMeMore = "I am a big gamer. In my spare time I love modding arcade sticks and mostly play Street Fighter. I'm currently working on an Arduino project to control some led lights I have inside a stick I'm messing with.";
 fields.checkMessage = function () {
   console.log(this.firstName);
 
